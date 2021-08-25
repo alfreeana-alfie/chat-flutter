@@ -81,7 +81,7 @@ class _CallScreenState extends State<CallScreen> {
 
   /// Create agora sdk instance and initialize
   Future<void> _initAgoraRtcEngine() async {
-    await AgoraRtcEngine.create(APP_ID);
+    await AgoraRtcEngine.create(APP_GROUP_ID);
     await AgoraRtcEngine.enableVideo();
   }
 
