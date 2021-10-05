@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (_) => UserProvider()),
       ],
       child: MaterialApp(
-        title: "Skype Clone",
+        title: "Chat Messaging",
         debugShowCheckedModeBanner: false,
         initialRoute: '/',
         routes: {
